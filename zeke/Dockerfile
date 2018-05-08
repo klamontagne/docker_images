@@ -1,3 +1,3 @@
-docker build -t zeke .
-docker tag zeke demarque/zeke:latest
-docker push demarque/zeke:latest
+FROM python:2-alpine
+RUN pip install --upgrade pip
+RUN pip install zeke
