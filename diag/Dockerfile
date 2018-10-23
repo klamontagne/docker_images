@@ -13,4 +13,5 @@ RUN apt-get update && apt-get install -y \
   mtr \
   curl \
   wget \
+  netcat \
   --
